@@ -42,3 +42,6 @@ npx prisma studio
 
 npm install @prisma/client
 npx prisma generate
+
+"postinstall": "prisma generate",
+"build": "prisma generate && next build",
